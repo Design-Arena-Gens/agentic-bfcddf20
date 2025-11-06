@@ -1,0 +1,93 @@
+/**
+ * Admin Styles
+ *
+ * @package GII_SaaS
+ */
+
+.gii-admin-header {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.gii-admin-header h1 {
+    margin: 0 0 10px 0;
+    color: #2563eb;
+}
+
+.gii-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.gii-stat-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.gii-stat-card h3 {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.gii-stat-card .stat-value {
+    font-size: 32px;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+.gii-table {
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.gii-table th {
+    background: #f9fafb;
+    padding: 12px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.gii-table td {
+    padding: 12px;
+    border-top: 1px solid #e5e7eb;
+}
+
+.gii-badge {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.gii-badge.status-active {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.gii-badge.status-draft {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.gii-badge.status-paid {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.gii-badge.status-pending {
+    background: #fef3c7;
+    color: #92400e;
+}
